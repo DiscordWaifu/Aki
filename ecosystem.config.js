@@ -1,6 +1,6 @@
 module.exports = {
-  apps : [{
-    name   : "aki",
-    script : "./src/index.js"
-  }]
-}
+	apps: [{
+		name: 'aki',
+		script: './src/index.js'
+	}]
+};

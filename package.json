@@ -4,13 +4,15 @@
   "main": "src/index.js",
   "devDependencies": {
     "@akashics/eslint-config": "4.2.0",
+    "@sapphire/eslint-config": "^4.3.8",
     "eslint": "8.22.0"
   },
   "dependencies": {
     "@discordjs/rest": "^1.0.1",
     "discord.js": "^14.2.0",
     "dotenv": "^16.0.1",
-    "hot-shots": "^9.2.0"
+    "hot-shots": "^9.2.0",
+    "mongodb": "^4.9.0"
   },
   "scripts": {
     "deploy": "node src/deploy-commands.js",
